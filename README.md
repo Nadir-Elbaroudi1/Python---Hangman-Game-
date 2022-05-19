@@ -7,10 +7,9 @@ from hangman_words import word_list
 from hangman_art import stages, logo
 from replit import clear
 
-# Updating the word list to use the 'word_list' from hangman_words.py
+#Updating the word list to use the 'word_list' from hangman_words.py
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
-
 
 end_of_game = False
 lives = 6
